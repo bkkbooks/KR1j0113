@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR1j0113/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR1j0113/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 韻略一卷
+  identifiers:
+    krp: KR1j0113
+  tags:
+    kr-categories: KR1j
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1j0113.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR1j0113_001-CHANT.yaml, hash: 'sha256:d2c699d09a041a3a92056adf6645b04fe4adc7ccf05db11e673857165dac6858'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1j0113_001-CHANT.markers.yaml, hash: 'sha256:83a3faa708b064b99e72b3d15a95be51e2a8fb51434921f7d54bb925070a91e1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1j0113_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 170
+  label: 韻略
+  type: section
+  level: 1
+hash: sha256:89bf154d26d21117797f18fcb65f82feafa138ea5d61fca80154a70332d76f12
